@@ -1,0 +1,59 @@
+.c-swiper {
+	overflow: hidden;
+	position: relative;
+}
+
+.c-swippercontent {
+	transition: transform 0.4s;
+}
+
+.c-swippercontent.next.entering,
+.c-swippercontent.next.exiting {
+	transform: translateX(-100%);
+}
+
+.c-swippercontent.next.entered,
+.c-swippercontent.next.exited {
+	animation-name: enter;
+  animation-duration: 0.4s;
+}
+
+.c-swippercontent.prev.entering,
+.c-swippercontent.prev.exiting {
+	transform: translateX(100%);
+}
+
+.c-swippercontent.prev.entered,
+.c-swippercontent.prev.exited {
+	animation-name: leave;
+  animation-duration: 0.4s;
+}
+
+.c-swippernext,
+.c-swipperprev {
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	width: 20%;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.c-swippernext {
+	right: 0;
+}
+
+.c-swipperprev {
+	left: 0;
+}
+
+@keyframes enter {
+  from {transform: translateX(100%);}
+  to {transform: translateX(0%)}
+}
+
+@keyframes leave {
+  from {transform: translateX(-100%);}
+  to {transform: translateX(0%)}
+}
