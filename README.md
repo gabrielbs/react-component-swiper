@@ -1,1 +1,1 @@
-# react-propx-component
+# react-component-swiper
