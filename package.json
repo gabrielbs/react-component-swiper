@@ -1,11 +1,11 @@
 {
-  "name": "react-popx-component",
+  "name": "react-component-swiper",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "dev": "webpack-dev-server --config ./webpack.dev.js --mode development",
     "build": "webpack --mode production"
   },
   "author": "",
