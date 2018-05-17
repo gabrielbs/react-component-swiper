@@ -11,6 +11,7 @@ const ComponentSwiper = ({
 	anim,
 	direction,
 	updateAnim,
+	arrowRight,
 	...props
 }) => {
 	return (
