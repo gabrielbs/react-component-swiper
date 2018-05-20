@@ -13,3 +13,5 @@ import ComponentSwiper from 'swiper'
    ]}
 />
 ```
+
+## Props
