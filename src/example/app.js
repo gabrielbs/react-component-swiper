@@ -12,6 +12,12 @@ class App extends Component {
 						<ExampleComponent number={2} />,
 						<ExampleComponent number={3} />
 					]}
+					arrowRight={(state) => (
+						<button onClick={() => state.goNext()}>goNext</button>
+					)}
+					arrowLeft={(state) => (
+						<a href="#" onClick={() => state.goPrev()}>goNext</a>
+					)}
 				/>
 			</div>
 		)

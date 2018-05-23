@@ -12,11 +12,14 @@ const ComponentSwiper = ({
 	direction,
 	updateAnim,
 	arrowRight,
+	arrowLeft,
 	...props
 }) => {
 	return (
 		<div className='c-swiper'>
-			<div className='c-swippernext' onClick={goNext}></div>
+			<div className='c-swippernext'>
+				{ arrowRight({goNext, goPrev, index}) }
+			</div>
 			<Transition in={anim} timeout={400}>
 				{(status) => (
 					<div className={`c-swippercontent ${direction} ${status}`}>
@@ -24,7 +27,9 @@ const ComponentSwiper = ({
 					</div>
 			  )}
 			</Transition>
-			<div className='c-swipperprev' onClick={goPrev}></div>
+			<div className='c-swipperprev'>
+				{ arrowLeft({goNext, goPrev, index}) }
+			</div>
 		</div>
 	)
 }
