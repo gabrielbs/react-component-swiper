@@ -34,20 +34,22 @@ const ComponentSwiper = ({
 	)
 }
 
+ComponentSwiper.propTypes = {
+	data: PropTypes.array.isRequired,
+	goNext: PropTypes.func,
+	goPrev: PropTypes.func,
+	updateDirection: PropTypes.func,
+	updateAnim: PropTypes.func,
+	updateIndex: PropTypes.func,
+	direction: PropTypes.string,
+	index: PropTypes.number,
+	anim: PropTypes.bool,
+	conditionNext: PropTypes.bool,
+	conditionPrev: PropTypes.bool
+}
+
 export default compose(
-	setPropTypes({
-		data: PropTypes.array.isRequired,
-		goNext: PropTypes.func,
-		goPrev: PropTypes.func,
-		updateDirection: PropTypes.func,
-		updateAnim: PropTypes.func,
-		updateIndex: PropTypes.func,
-		direction: PropTypes.string,
-		index: PropTypes.number,
-		anim: PropTypes.bool,
-		conditionNext: PropTypes.bool,
-		conditionPrev: PropTypes.bool
-	}),
+	setPropTypes(ComponentSwiper.propTypes),
 	defaultProps({
 		conditionNext: true,
 		conditionPrev: true
