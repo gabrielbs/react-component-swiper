@@ -8,8 +8,8 @@
     "dev": "webpack-dev-server --config ./webpack.dev.js --mode development",
     "build": "webpack --mode production"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gabriel Ferreira",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
