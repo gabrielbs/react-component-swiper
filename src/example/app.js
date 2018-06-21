@@ -18,6 +18,8 @@ class App extends Component {
 					arrowLeft={(state) => (
 						<a href="#" onClick={() => state.goPrev()}>goNext</a>
 					)}
+					conditionNext={true}
+					conditionPrev={true}
 				/>
 			</div>
 		)
