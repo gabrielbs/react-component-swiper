@@ -1,5 +1,4 @@
 # React Component Swiper
-A carousel of components
 
 React Component Swiper was full build with render props for full control of your logic
 
