@@ -9,7 +9,7 @@ yarn add react-component-swiper
 
 ### Example
 ```javascript
-import ComponentSwiper from 'swiper'
+import ComponentSwiper from 'react-component-swiper'
 
 <ComponentSwiper
   data={[
