@@ -4,7 +4,7 @@ React Component Swiper was full build with render props for full control of your
 
 ### Install
 ```
-yarn add react-component-swiper
+npm install --save react-component-swiper
 ```
 
 ### Example
@@ -29,7 +29,7 @@ import ComponentSwiper from 'react-component-swiper'
 ```
 ### Running example locally
 ```
-yarn dev
+npm run dev
 ```
 Then access your localhost on port 9000 http://localhost:9000
 
