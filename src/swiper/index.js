@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Transition from 'react-transition-group/Transition'
 import { compose, withState, withHandlers, lifecycle, setPropTypes, defaultProps } from 'recompose'
-import './swiper.css'
+import './index.css'
 
 const ComponentSwiper = ({
 	goNext,
