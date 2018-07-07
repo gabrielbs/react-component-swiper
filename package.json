@@ -10,7 +10,10 @@
   },
   "jest": {
     "verbose": true,
-    "roots": ["src"],
+    "roots": [
+      "src"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>src/setupTests.js",
     "moduleNameMapper": {
       "^.+\\.(css)$": "<rootDir>/config/CSSStub.js"
     }
@@ -28,6 +31,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^23.3.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.7.0",
