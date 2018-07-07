@@ -26,7 +26,7 @@ describe('Testing the elements of navigation', () => {
         <a href="#" onClick={() => state.goPrev()}>goNext</a>
       )}
       arrowRight={(state) => (
-        <button onClick={() => state.goNext()}>goNext</button>
+        <a onClick={() => state.goNext()}>goNext</a>
       )}
     />
   )
