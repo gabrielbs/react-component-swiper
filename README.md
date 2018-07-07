@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gabrielbs/react-component-swiper.svg?branch=master)](https://travis-ci.org/gabrielbs/react-component-swiper)
+
 # React Component Swiper
 
 React Component Swiper was full build with render props for full control of your logic and maximum re-use  as possible
