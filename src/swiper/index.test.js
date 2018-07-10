@@ -2,15 +2,15 @@ import React from 'react'
 import ComponentSwiper from './index'
 import { shallow, mount } from 'enzyme'
 
-const swiper = (
-  <ComponentSwiper data={[
-    <div />,
-    <div />,
-    <div />
-  ]} />
-)
-
 test('should render without errors', () => {
+  const swiper = (
+    <ComponentSwiper data={[
+      <div />,
+      <div />,
+      <div />
+    ]} />
+  )
+  
   shallow(swiper)
 })
 
