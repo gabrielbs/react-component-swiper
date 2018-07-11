@@ -9,6 +9,9 @@ React Component Swiper was full build with render props for full control of your
 npm install --save react-component-swiper
 ```
 
+### Demo
+https://gabrielbs.github.io/react-component-swiper/example/
+
 ### Example
 ```javascript
 import ComponentSwiper from 'react-component-swiper'
