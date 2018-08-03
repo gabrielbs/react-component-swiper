@@ -26,7 +26,7 @@ import ComponentSwiper from 'react-component-swiper'
      <button onClick={() => props.goNext()}>goNext</button>
    )}
    arrowLeft={(props) => (
-     <a href="#" onClick={() => props.goPrev()}>goNext</a>
+     <a href="#" onClick={() => props.goPrev()}>goPrev</a>
    )}
    conditionNext={true}
    conditionPrev={true}
