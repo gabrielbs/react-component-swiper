@@ -4,7 +4,7 @@ import Transition from 'react-transition-group/Transition'
 import { compose, withState, withHandlers, lifecycle, setPropTypes, defaultProps } from 'recompose'
 import './index.css'
 
-const ComponentSwiper = ({
+export const ComponentSwiper = ({
 	goNext,
 	goPrev,
 	index,
