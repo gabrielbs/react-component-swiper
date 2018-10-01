@@ -10,6 +10,11 @@
   },
   "jest": {
     "verbose": true,
+    "coverageReporters": [
+      "text",
+      "html",
+      "clover"
+    ],
     "roots": [
       "src"
     ],
